@@ -1,8 +1,24 @@
-  #map {
-    height: 100%;
-  }
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.custom-tooltip {
+  border: 1px solid #c79d3b;
+  font-weight: 700;
+  padding: 3px;
+  box-shadow: none;
+  font-size: 12px; /* Font size */
+  font-weight: bold; /* Font weight */
+  color: #000; /* Text color */
+  cursor: text;
+  text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    -1px -1px 0 #fff;
+  box-shadow: 0px 0px 5px black;
+}
