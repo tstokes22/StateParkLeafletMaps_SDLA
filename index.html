@@ -28,27 +28,13 @@
       crossorigin=""
     ></script>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
     <div id="map"></div>
-    <script type="text/javascript">
-      var map = L.map("map").setView(
-        [44.34552800621869, -100.27982184218317],
-        8
-      );
 
-      const tiles = L.tileLayer(
-        "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-        {
-          maxZoom: 13,
-          minZoom: 8,
-          attribution:
-            '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-        }
-      ).addTo(map);
-    </script>
-    <script src="Scripts/us-states.js"></script>
-    <script src="Scripts/markercluster.js"></script>
+    <script src="Scripts/us_States.js"></script>
+    <script src="Scripts/park_Locations.js"></script>
+    <script src="Scripts/map_Markers.js"></script>
   </body>
 </html>
