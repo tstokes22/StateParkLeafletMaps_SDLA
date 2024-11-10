@@ -1,4 +1,117 @@
-var parkLocations = [
+var parkLocationsLA = [
+  {
+    name: "Bayou Segnette",
+    coordinates: [29.89323, -90.16292],
+    address: "777 Westbank Expressway, Westwego, LA 70094",
+  },
+  {
+    name: "Bogue Chitto",
+    coordinates: [30.76858, -90.14766],
+    address: "17049 State Park Blvd., Franklinton, LA 70438",
+  },
+  {
+    name: "Chemin-A-Haut",
+    coordinates: [32.91356, -91.83861],
+    address: "14656 State Park Road, Bastrop, LA 71220",
+  },
+  {
+    name: "Chicot State Park",
+    coordinates: [30.79858, -92.27783],
+    address: "3469 Bhicot Park Road, Ville Platte, LA 70586",
+  },
+  {
+    name: "Cypremort Point",
+    coordinates: [29.73643, -91.85221],
+    address: "306 Beach Lane, Cypremort Point, LA 70538",
+  },
+  {
+    name: "Fairview-Riverside",
+    coordinates: [30.41066, -90.14487],
+    address: "119 Fairview Drive, Madisonville, LA 70447",
+  },
+  {
+    name: "Fountainebleu",
+    coordinates: [30.33747, -90.02953],
+    address: "62883 Highway 1089, Mandeville, LA 70448",
+  },
+  {
+    name: "Grand Isle",
+    coordinates: [29.25936, -89.95481],
+    address: "Admiral Craik Drive, Grand Isle, LA 70358",
+  },
+  {
+    name: "Jimmie Davis",
+    coordinates: [32.25231, -92.51871],
+    address: "1209 State Park Road, Chantham, LA 71226",
+  },
+  {
+    name: "Lake Bistineau",
+    coordinates: [32.44903, -93.37551],
+    address: "103 State Park Road, Doyline, LA 71023",
+  },
+  {
+    name: "Lake Bruin",
+    coordinates: [31.95897, -91.20066],
+    address: "201 State Park Road, St. Joeseph, LA 71336",
+  },
+  {
+    name: "Lake Claiborne",
+    coordinates: [32.72267, -92.92009],
+    address: "225 State Park Road, Homer, LA 71040",
+  },
+  {
+    name: "Lake D'Arbonne",
+    coordinates: [32.77772, -92.48642],
+    address: "3628 Evergreen Road, Farmerville, LA 71241",
+  },
+  {
+    name: "Lake Fausse Pointe",
+    coordinates: [30.02843, -91.60046],
+    address: "5400 Levee Road, St. Martinville, LA 70582",
+  },
+  {
+    name: "North Toledo Bend",
+    coordinates: [31.55814, -93.73925],
+    address: "2907 North Toledo Bend Park Road, Zwolle, LA 71486",
+  },
+  {
+    name: "Palmetto Island",
+    coordinates: [29.85875, -92.13940],
+    address: "19501 Pleasant Road, Abbeville, LA 70510",
+  },
+  {
+    name: "Black Bear Golf Course",
+    coordinates: [32.54913, -91.48506],
+    address: "253 Black Bear Drive, Delhi, LA 71232",
+  },
+  {
+    name: "Sam Houston Jones",
+    coordinates: [30.29999, -93.26375],
+    address: "107 Southerland Road, Lake Charles, LA 70611",
+  },
+  {
+    name: "South Toledo Bend",
+    coordinates: [31.20843, -93.57226],
+    address: "120 Balid Eagle Road, Anacoco, LA 71403",
+  },
+  {
+    name: "Tickfaw",
+    coordinates: [30.38486, -90.65339],
+    address: "27225 Patterson Road, Springfield, LA 70462",
+  },
+  {
+    name: "St. Bernard",
+    coordinates: [29.85957, -89.89903],
+    address: "501 Saint Bernard Parkway, Braithwaite, LA 70040",
+  },
+  {
+    name: "Poverty Point Reservoir",
+    coordinates: [32.51247, -91.49086],
+    address: "1500 Poverty Point Parkway, Delhi, LA 71232",
+  }
+];
+
+var parkLocationsSD = [
   {
     park_id: 2,
     name: "Adams Homestead and Nature Preserve",
@@ -585,3 +698,4 @@ var wildLifeOfficeLocations = [
     phone: "605.626.3343",
   },
 ];
+

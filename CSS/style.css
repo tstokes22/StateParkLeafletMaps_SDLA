@@ -8,9 +8,10 @@ body {
   width: 100%;
   max-width: 100%;
   max-height: 100%;
+  position: relative;
 }
 .custom-tooltip {
-  border: 1px solid #c79d3b;
+  border: 1px solid #b8daeb;
   font-weight: 700;
   padding: 3px;
   box-shadow: none;
@@ -21,4 +22,89 @@ body {
   text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
     -1px -1px 0 #fff;
   box-shadow: 0px 0px 5px black;
+}
+
+.buttonLA
+{
+  position: fixed; 
+  margin-bottom: 5px;
+  margin-left: 5px;
+  z-index: 1000;   
+  color: white;
+  border: none;
+  z-index: 1000;
+}
+.buttonSD
+{
+  margin-bottom: 5px;
+  margin-left: 5px;
+  z-index: 1000;   
+  padding: 10px 20px; 
+  color: white;
+  z-index: 1000;
+}
+
+button[type="buttonLA"] {
+  background-color: #555;
+  border-radius: 4rem;
+  color: #fff;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 200px;            
+  height: 50px;            
+  justify-content: center; 
+  align-items: center;     
+  position: relative;
+  transition: all .1s ease;
+  
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+button[type="buttonSD"] {
+  background-color: #555;
+  border: 0;
+  color: #fff;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 200px;            
+  height: 50px;            
+  justify-content: center; 
+  align-items: center;     
+  position: relative;
+  transition: all .1s ease;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+/* Hover style */
+.buttonSD:hover {
+  background-color: #c15727; /* Darker green on hover */
+}
+
+.buttonSD:active {
+  background-color: #c15727; 
+  transform: scale(0.5); 
+}
+
+.buttonLA:hover {
+  background-color: #1685be; 
+  
+}
+
+.buttonLA:active {
+  background-color: #1685be; 
+  transform: scale(0.5); 
+}
+
+.buttonSD.pressed
+{
+  background-color: #c15727;
+}
+
+.buttonLA.pressed
+{
+  background-color: #1685be; 
 }
