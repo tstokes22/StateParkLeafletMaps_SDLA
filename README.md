@@ -1,2 +1,1 @@
-# SouthDakotaStateParks
-A map of South Dakota state parks and recreational areas
+# Leaflet map of South Dakota and Lousisana state parks
