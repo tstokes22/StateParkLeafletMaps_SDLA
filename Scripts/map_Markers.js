@@ -20,7 +20,7 @@ parkLocationsLA.forEach(function (park) {
   var marker = L.marker(park.coordinates, {
     riseOnHover: true, // Enable rise on hover
     icon: L.icon({
-      iconUrl: "Images/faviconla.ico", // Path to your image file
+      iconUrl: "Images/faviconla.ico", // Path to image file
       iconSize: [24, 24], // Size of the icon
     }),
   })
@@ -56,7 +56,7 @@ parkLocationsSD.forEach(function (park) {
   var marker = L.marker(park.coordinates, {
     riseOnHover: true, // Enable rise on hover
     icon: L.icon({
-      iconUrl: "Images/favIcon-32x32_15.png", // Path to your image file
+      iconUrl: "Images/favIcon-32x32_15.png", // Path to image file
       iconSize: [24, 24], // Size of the icon
     }),
   })
@@ -96,7 +96,7 @@ wildLifeOfficeLocations.forEach(function (office) {
   var marker = L.marker(office.coordinates, {
     riseOnHover: true, // Enable rise on hover
     icon: L.icon({
-      iconUrl: "Images/favIcon-32x32_15.png", // Path to your image file
+      iconUrl: "Images/favIcon-32x32_15.png", // Path to image file
       iconSize: [24, 24], // Size of the icon
     }),
   })
