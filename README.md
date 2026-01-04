@@ -1,8 +1,11 @@
-# South Dakota State Parks Interactive Map
+# South Dakota and Louisiana State Parks Interactive Map
 ### Geospatial Visualization Project
 ### Project Overview
 
-The South Dakota State Parks Interactive Map is a geospatial web application designed to help users visualize and explore state parks and recreational areas across South Dakota. By leveraging modern web mapping technologies, the project provides a dynamic, user-friendly interface for navigating geographic data points in real-time.
+The South Dakota and Louisiana State Parks Interactive Map is a geospatial web application designed to help users visualize and explore state parks and recreational areas across South Dakota.
+
+<img width="1866" height="972" alt="image" src="https://github.com/user-attachments/assets/be1f9530-b17b-4926-918c-15d208a5e8a4" />
+
 ### Key Features
 
     Dynamic Map Interface: An interactive canvas allowing users to zoom, pan, and explore South Dakota's geography.
